@@ -6,28 +6,17 @@ import io.appium.java_client.android.AndroidDriver;
 import models.components.global.BottomNavComponent;
 import models.pages.LoginPage;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Ignore;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 
 public class LoginTest {
-    private  SoftAssert softAssert;
-    @BeforeClass
-    public void beforeClass(){
-        softAssert = new SoftAssert();
-    }
-    @AfterClass
-    public void afterClass(){
-        softAssert.assertAll();
-    }
 
-    @Test
-    public  void a1loginWithCorrectCreds() {
+    @Test( dataProvider = "loginCredsData")
+    public  void loginWithCorrectCreds(String username, String password) {
         DriverFactory.startAppiumServer();
         try{
+            //Init driver
             AndroidDriver<MobileElement> androidDriver = DriverFactory.getAndroidDriver();
             //Login page
             LoginPage loginPage = new LoginPage(androidDriver);
@@ -37,26 +26,26 @@ public class LoginTest {
 
             //Fill Login Form
             loginPage
-                    .inputUsername("autotest@mailinator.com")
-                    .inputPassword("98765432")
+                    .inputUsername(username)
+                    .inputPassword(password)
                     .clickOnLoginBtn();
-            //Verification
-//            String loginMsg = loginPage.loginDialogComponent().msgTitle();
-//            Assert.assertEquals(loginMsg,"Success","[ERR] Login msg title incorrect");
-//            System.out.println(loginMsg);
+            //VerificationLoginTest
+            String loginMsg = loginPage.loginDialogComponent().msgTitle();
+            Assert.assertEquals(loginMsg,"Success","[ERR] Login msg title incorrect");
+            System.out.println(loginMsg);
+            String popupContent = loginPage.loginDialogComponent().msgContent();
+            boolean isContentPopupCorrect = popupContent.equals("You are logged in!");
+            String customErrMsg = "[ERR] Login msg content incorrect";
+            Assert.assertTrue(isContentPopupCorrect,customErrMsg);
+            System.out.println(popupContent);
+            //SoftAssert
+
+//            String loginMsg_softAssert = loginPage.loginDialogComponent().msgTitle();
+//            softAssert.assertEquals(loginMsg_softAssert,"success","[ERR] Login msg title incorrect");
 //            String popupContent = loginPage.loginDialogComponent().msgContent();
 //            boolean isContentPopupCorrect = popupContent.equals("You are logged in");
 //            String customErrMsg = "[ERR] Login msg content incorrect";
-//            Assert.assertTrue(isContentPopupCorrect,customErrMsg);
-//            System.out.println(popupContent);
-            //SoftAssert
-
-            String loginMsg_softAssert = loginPage.loginDialogComponent().msgTitle();
-            softAssert.assertEquals(loginMsg_softAssert,"success","[ERR] Login msg title incorrect");
-            String popupContent = loginPage.loginDialogComponent().msgContent();
-            boolean isContentPopupCorrect = popupContent.equals("You are logged in");
-            String customErrMsg = "[ERR] Login msg content incorrect";
-            softAssert.assertTrue(isContentPopupCorrect,customErrMsg);
+//            softAssert.assertTrue(isContentPopupCorrect,customErrMsg);
 
         }catch(Exception e){
             e.printStackTrace();
@@ -66,12 +55,12 @@ public class LoginTest {
         }
 
     }
-    @Test (priority = 1, dependsOnMethods = {"a3Void"})
-    void a2Void(){
-        System.out.println("This should be executed first");
+    @DataProvider
+    public Object[][] loginCredsData() {
+        return new Object[][] {
+                { "auto@mail.com", "12345678"},
+                { "auto1@mail.com", "87654321"},
+        };
     }
-    @Test (priority = 2)
-    void a3Void(){
-        Assert.assertTrue(true);
-    }
+
 }

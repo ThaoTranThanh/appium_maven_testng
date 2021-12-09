@@ -2,94 +2,94 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="5099" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:48 ICT">
+  <suite name="Regression" duration-ms="5110" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:51 ICT">
     <groups>
     </groups>
-    <test name="authentication" duration-ms="58" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+    <test name="authentication" duration-ms="61" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
       <class name="test.testng.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMeThod()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeMeThod" is-config="true" duration-ms="1" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="beforeMeThod()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeMeThod" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMeThod -->
-        <test-method status="PASS" signature="loginCorrectCreds()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="loginCorrectCreds" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="loginCorrectCreds()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="loginCorrectCreds" duration-ms="1" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCorrectCreds -->
-        <test-method status="PASS" signature="beforeMeThod()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeMeThod" is-config="true" duration-ms="1" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="beforeMeThod()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="beforeMeThod" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMeThod -->
-        <test-method status="PASS" signature="loginInCorrectCreds()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="loginInCorrectCreds" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="loginInCorrectCreds()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="loginInCorrectCreds" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInCorrectCreds -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.testng.LoginTest@1e6d1014]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- test.testng.LoginTest -->
       <class name="test.testng.DemoTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="beforeTest" is-config="true" duration-ms="10" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="beforeTest" is-config="true" duration-ms="8" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="loginInCorrectDemoTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="loginInCorrectDemoTest" duration-ms="1" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginInCorrectDemoTest -->
-        <test-method status="PASS" signature="loginDemoTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="loginDemoTest" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="loginDemoTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="loginDemoTest" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDemoTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
+        <test-method status="PASS" signature="loginInCorrectDemoTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="loginInCorrectDemoTest" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInCorrectDemoTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:46 ICT" finished-at="2021-12-05T23:22:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.testng.DemoTest@26aa12dd]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:43 ICT" finished-at="2021-12-05T09:55:43 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
       </class> <!-- test.testng.DemoTest -->
     </test> <!-- authentication -->
-    <test name="signup" duration-ms="3" started-at="2021-12-05T09:55:48 ICT" finished-at="2021-12-05T09:55:48 ICT">
+    <test name="signup" duration-ms="2" started-at="2021-12-05T23:22:51 ICT" finished-at="2021-12-05T23:22:51 ICT">
       <class name="test.testng.SignUpTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-12-05T09:55:48 ICT" finished-at="2021-12-05T09:55:48 ICT">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-12-05T23:22:51 ICT" finished-at="2021-12-05T23:22:51 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="signupWithCorrectEmail()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="signupWithCorrectEmail" duration-ms="1" started-at="2021-12-05T09:55:48 ICT" finished-at="2021-12-05T09:55:48 ICT">
+        <test-method status="PASS" signature="signupWithCorrectEmail()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="signupWithCorrectEmail" duration-ms="0" started-at="2021-12-05T23:22:51 ICT" finished-at="2021-12-05T23:22:51 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupWithCorrectEmail -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:48 ICT" finished-at="2021-12-05T09:55:48 ICT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:51 ICT" finished-at="2021-12-05T23:22:51 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:48 ICT" finished-at="2021-12-05T09:55:48 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:51 ICT" finished-at="2021-12-05T23:22:51 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="signupWithInCorrectEmail()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="signupWithInCorrectEmail" duration-ms="0" started-at="2021-12-05T09:55:48 ICT" finished-at="2021-12-05T09:55:48 ICT">
+        <test-method status="PASS" signature="signupWithInCorrectEmail()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="signupWithInCorrectEmail" duration-ms="0" started-at="2021-12-05T23:22:51 ICT" finished-at="2021-12-05T23:22:51 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupWithInCorrectEmail -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-05T09:55:48 ICT" finished-at="2021-12-05T09:55:48 ICT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.testng.SignUpTest@4232c52b]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-05T23:22:51 ICT" finished-at="2021-12-05T23:22:51 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
